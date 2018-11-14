@@ -4369,6 +4369,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "MyTime.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/MyTime.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTime.Domain.dll": {}
+        }
       }
     }
   },
@@ -11564,6 +11577,11 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "MyTime.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MyTime.Domain/MyTime.Domain.csproj",
+      "msbuildProject": "../MyTime.Domain/MyTime.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11572,6 +11590,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.Design >= 2.1.4",
       "Microsoft.NETCore.App >= 2.1.0",
+      "MyTime.Domain >= 1.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 2.1.2"
     ]
   },
@@ -11602,7 +11621,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Domain/MyTime.Domain.csproj": {
+              "projectPath": "/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Domain/MyTime.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

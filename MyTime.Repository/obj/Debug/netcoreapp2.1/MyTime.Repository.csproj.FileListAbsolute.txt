@@ -12,3 +12,6 @@
 /media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Repository/obj/Debug/netcoreapp2.1/MyTime.Repository.RazorTargetAssemblyInfo.cache
 /media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Repository/obj/Debug/netcoreapp2.1/MyTime.Repository.dll
 /media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Repository/obj/Debug/netcoreapp2.1/MyTime.Repository.pdb
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Repository/bin/Debug/netcoreapp2.1/MyTime.Domain.dll
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Repository/bin/Debug/netcoreapp2.1/MyTime.Domain.pdb
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Repository/obj/Debug/netcoreapp2.1/MyTime.Repository.csproj.CopyComplete
