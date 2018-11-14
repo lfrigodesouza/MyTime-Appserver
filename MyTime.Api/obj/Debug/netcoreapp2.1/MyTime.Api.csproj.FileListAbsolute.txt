@@ -1,0 +1,14 @@
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/bin/Debug/netcoreapp2.1/MyTime.Api.deps.json
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/bin/Debug/netcoreapp2.1/MyTime.Api.runtimeconfig.json
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/bin/Debug/netcoreapp2.1/MyTime.Api.runtimeconfig.dev.json
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/bin/Debug/netcoreapp2.1/MyTime.Api.dll
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/bin/Debug/netcoreapp2.1/MyTime.Api.pdb
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.csprojAssemblyReference.cache
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.csproj.CoreCompileInputs.cache
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.RazorAssemblyInfo.cache
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.RazorAssemblyInfo.cs
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.AssemblyInfoInputs.cache
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.AssemblyInfo.cs
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.RazorTargetAssemblyInfo.cache
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.dll
+/media/lucas/Arquivos/Repos/MyTime-Appserver/MyTime.Api/obj/Debug/netcoreapp2.1/MyTime.Api.pdb
