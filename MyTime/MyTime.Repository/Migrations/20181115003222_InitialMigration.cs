@@ -18,7 +18,7 @@ namespace MyTime.Repository.Migrations
                     Code = table.Column<string>(type: "varchar(10)", nullable: false),
                     Password = table.Column<string>(type: "varchar(256)", nullable: false),
                     FlgEnable = table.Column<int>(type: "int", nullable: false, defaultValue: 1),
-                    UserType = table.Column<int>(type: "int", nullable: false, defaultValue: 2)
+                    UserType = table.Column<int>(type: "int", nullable: false, defaultValue: 1)
                 },
                 constraints: table =>
                 {

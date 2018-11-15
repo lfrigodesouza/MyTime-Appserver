@@ -4,8 +4,8 @@ namespace MyTime.Domain.Enums
     {
         public enum EnUserType
         {
-            Administrator = 1,
-            NormalUser = 2
+            Administrator = 0,
+            NormalUser = 1
         }
 
         public enum EnTaskStatus
