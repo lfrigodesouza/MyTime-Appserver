@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTime.Api", "MyTime.Api\MyTime.Api.csproj", "{C8CCD1CA-86B2-4B46-AC5C-8A03B61FF384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTime.Api", "MyTime.Api\MyTime.Api.csproj", "{C8CCD1CA-86B2-4B46-AC5C-8A03B61FF384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTime.Domain", "MyTime.Domain\MyTime.Domain.csproj", "{387387DC-7E21-4A6D-B3C0-2984CDB5032D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTime.Domain", "MyTime.Domain\MyTime.Domain.csproj", "{387387DC-7E21-4A6D-B3C0-2984CDB5032D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTime.Repository", "MyTime.Repository\MyTime.Repository.csproj", "{F361F8C6-5928-4C9F-84FD-A8CC3807FFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTime.Repository", "MyTime.Repository\MyTime.Repository.csproj", "{F361F8C6-5928-4C9F-84FD-A8CC3807FFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTime.Service", "MyTime.Service\MyTime.Service.csproj", "{82A2E937-79F2-4A60-88A8-06337C4485A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C8CCD1CA-86B2-4B46-AC5C-8A03B61FF384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +57,23 @@ Global
 		{F361F8C6-5928-4C9F-84FD-A8CC3807FFD3}.Release|x64.Build.0 = Release|Any CPU
 		{F361F8C6-5928-4C9F-84FD-A8CC3807FFD3}.Release|x86.ActiveCfg = Release|Any CPU
 		{F361F8C6-5928-4C9F-84FD-A8CC3807FFD3}.Release|x86.Build.0 = Release|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Debug|x64.Build.0 = Debug|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Debug|x86.Build.0 = Debug|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Release|x64.ActiveCfg = Release|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Release|x64.Build.0 = Release|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Release|x86.ActiveCfg = Release|Any CPU
+		{82A2E937-79F2-4A60-88A8-06337C4485A5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A397A39B-F72E-43A4-93DB-6DD59EC82680}
 	EndGlobalSection
 EndGlobal
