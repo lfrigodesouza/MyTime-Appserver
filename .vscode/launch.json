@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/MyTime.Api/bin/Debug/netcoreapp2.1/MyTime.Api.dll",
+            "program": "${workspaceFolder}/MyTime/MyTime.Api/bin/Debug/netcoreapp2.1/MyTime.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/MyTime.Api",
+            "cwd": "${workspaceFolder}/MyTime/MyTime.Api",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
