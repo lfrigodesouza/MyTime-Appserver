@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MyTime.Domain;
+using MyTime.Repository;
 
 namespace MyTime.Api.Controllers
 {
@@ -19,9 +21,12 @@ namespace MyTime.Api.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<TBLUser> Get(int id)
         {
-            return "value";
+            using (var _rep = new Repository.UserRepository())
+            {
+                
+            }
         }
 
         // POST api/values

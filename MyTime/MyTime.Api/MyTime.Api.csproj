@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyTime.Repository\MyTime.Repository.csproj" />
+    <ProjectReference Include="..\MyTime.Service\MyTime.Service.csproj" />
   </ItemGroup>
 
 </Project>
