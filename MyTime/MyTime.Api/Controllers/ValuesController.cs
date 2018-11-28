@@ -11,12 +11,12 @@ namespace MyTime.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ValuesController : Controller
     {
-        public IBaseService<TBLUser> _service { get; set; }
-        public ValuesController(IBaseService<TBLUser> service)
+        public IUserService _userService { get; set; }
+        public ValuesController(IUserService userService)
         {
-            _service = service;
+            _userService = userService;
         }
 
         // GET api/values
@@ -30,7 +30,7 @@ namespace MyTime.Api.Controllers
         [HttpGet("{id}")]
         public ActionResult<TBLUser> Get(int id)
         {
-            return _service.GetById(id);
+            return _userService.GetById(id);
         }
 
         // POST api/values

@@ -1,20 +1,14 @@
 ﻿using System;
 using MyTime.Repository;
 using MyTime.Domain;
+using MyTime.Service.Generic;
 
 namespace MyTime.Service
 {
-    public class UserService : IBaseService<TBLUser>
+    public class UserService : BaseService<TBLUser>, IUserService
     {
-        public IBaseRepository<TBLUser> _repository { get; set; }
-        public UserService(IBaseRepository<TBLUser> repository)
+        public UserService(IUserRepository repository) : base(repository)
         {
-            _repository = repository;
-        }
-
-        public TBLUser GetById(int pId)
-        {
-           return _repository.GetById(pId);
         }
     }
 }

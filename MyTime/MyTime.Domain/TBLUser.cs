@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using static MyTime.Domain.Enums.Enums;
 
 namespace MyTime.Domain
@@ -12,6 +13,7 @@ namespace MyTime.Domain
             TBLTasks = new List<TBLTask>();
         }
 
+        [Key]
         public int IdUser { get; set; }
         public string Name { get; set; }
         public string Code { get; set; }

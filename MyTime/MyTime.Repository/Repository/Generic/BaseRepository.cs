@@ -34,9 +34,9 @@ namespace MyTime.Repository
 
         public T GetById(int pId)
         {
-            var type = _dbSet.GetType();
+            var type = typeof(T);
             var prop = type.GetProperties().Where(x => Attribute.IsDefined(x, typeof(KeyAttribute))).FirstOrDefault();
-            var parameter = Expression.Parameter(typeof(T), "p");
+            var parameter = Expression.Parameter(type, "p");
             var property = Expression.Property(parameter, prop);
             var constante = Expression.Constant(pId, typeof(int));
             var igualdade = Expression.Equal(property, constante);
