@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MyTime.Domain;
 using MyTime.Repository;
+using MyTime.Service;
 
 namespace MyTime.Api.Controllers
 {
@@ -12,6 +13,12 @@ namespace MyTime.Api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        public IBaseService<TBLUser> _service { get; set; }
+        public ValuesController(IBaseService<TBLUser> service)
+        {
+            _service = service;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
@@ -23,10 +30,7 @@ namespace MyTime.Api.Controllers
         [HttpGet("{id}")]
         public ActionResult<TBLUser> Get(int id)
         {
-            using (var _rep = new Repository.UserRepository())
-            {
-                
-            }
+            return _service.GetById(id);
         }
 
         // POST api/values

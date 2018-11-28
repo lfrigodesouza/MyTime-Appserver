@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyTime.Repository
 {
-    interface IBaseRepository<T>
+    public interface IBaseRepository<T>
     {
         T Insert(T pItem);
         T Update(T pItem);
